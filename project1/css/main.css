@@ -50,11 +50,7 @@ ul {
   display: flex;
   align-items: center;
 }
-.nav_items .nav_images {
-  width: 30%;
-}
-.nav_items .nav_list {
-  width: 70%;
+.nav_items .nav_list nav ul {
   display: flex;
   justify-content: space-between;
 }
@@ -72,4 +68,8 @@ ul {
 
 .nav_icon ul li {
   margin-right: 15px;
+}
+
+.nav_list {
+  margin-left: 500px;
 }/*# sourceMappingURL=main.css.map */

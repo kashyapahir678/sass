@@ -57,12 +57,7 @@ ul {
     width: 100%;
     display: flex;
     align-items: center;
-
-    .nav_images{
-        width: 30%;
-    }
-    .nav_list{
-        width: 70%;
+    .nav_list nav ul{
         display: flex;
         justify-content: space-between;
     }
@@ -80,4 +75,8 @@ ul {
 }
 .nav_icon ul li{
     margin-right: 15px;
+}
+
+.nav_list{
+    margin-left: 500px;
 }
