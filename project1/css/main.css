@@ -29,26 +29,42 @@ ul {
   list-style-type: none;
 }
 
+main {
+  background: rgb(69, 52, 206);
+  background: linear-gradient(90deg, rgb(69, 52, 206) 0%, rgb(61, 67, 179) 31%, rgba(123, 67, 187, 0.961) 69%);
+}
+
 .navbar {
   display: flex;
   align-items: center;
   padding: 8px 16px;
+  padding-top: 20px;
 }
 
 .nav_toggle a {
   font-size: 20px;
+  color: #fff;
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0px auto;
-  border: 1px solid black;
+}
+
+.container2 {
+  margin-top: 50px;
 }
 
 .nav_items {
   width: 100%;
+  height: 100%;
+  padding: 10px 20px;
   display: flex;
+  background-color: #fff;
   align-items: center;
+}
+.nav_items .nav_list {
+  height: 100%;
 }
 .nav_items .nav_list nav ul {
   display: flex;
@@ -57,9 +73,28 @@ ul {
 .nav_items .nav_list a {
   font-size: 15px;
   font-weight: 600;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 0.5rem;
   font-family: "Poppins", sans-serif;
   margin: auto;
+  margin-left: 15px;
+  color: black;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.getnow {
+  display: flex;
+  align-items: center;
+  background-color: #0a69de;
+}
+
+.getnow a {
+  padding: 20px 20px;
+  color: white;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
 .nav_icon ul {
@@ -70,6 +105,65 @@ ul {
   margin-right: 15px;
 }
 
+.nav_icon ul li a {
+  color: #fff;
+}
+
 .nav_list {
-  margin-left: 500px;
+  margin-left: 400px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.hero_img {
+  width: 50%;
+}
+
+.hero_img img {
+  width: 100%;
+}
+
+.hero div {
+  max-width: 700px;
+  padding: 0px 20px;
+}
+
+.hero_text h4 {
+  color: #fff;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.hero_text h2 {
+  color: #fff;
+  font-size: 59px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.hero_text h5 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.hero_text a {
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #000000;
+  font-size: 16px;
+  padding: 11px 40px;
+  line-height: 1.8em;
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */
