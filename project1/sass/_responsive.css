@@ -46,6 +46,32 @@
     .hero div{
         width: 100%;text-align: center;
     }
+    .hero_text{
+        margin-bottom: 20px;
+    }
+
+    .about-row1{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .about-row1 div{
+        max-width: 600px;
+    }
+    .about-row1 div h1{
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    .about-row2{
+        justify-content: center;
+    }
+    .about-row2 div{
+      flex-grow: unset;
+      min-width: 150px;
+    }
+    .about-row2 div h5{
+        font-size: 15px;
+    }
 }
 
 
@@ -61,6 +87,13 @@
     }
     .hero_text h2{
         font-size: 40px;
+    }
+    .about-row2 div{
+        max-width: 500px;
+        flex-basis: 400px;
+    }
+    .about-row2{
+        flex-wrap: wrap;
     }
 }
 
